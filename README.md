@@ -64,6 +64,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 Additional Note:
 Ensure that you have PHP, Composer, and a web server (like Apache or Nginx) installed on your machine.
 
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
