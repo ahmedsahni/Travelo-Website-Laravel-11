@@ -49,6 +49,21 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
+  
+##how to install
+1. Clone the Repository: https://github.com/ahmedsahni/Travelo-Website-Laravel-11.git
+2. Navigate to the Project Directory: cd your-repo-name
+3. Install Dependencies: composer install
+4. Copy the Environment File: cp .env.example .env
+5. Generate Application Key: php artisan key:generate
+6. Set Up the Database
+7. Run Migrations: php artisan migrate
+8. Seed the Database (Optional): php artisan db:seed
+9. Start the Development Server: php artisan serve
+
+Additional Note:
+Ensure that you have PHP, Composer, and a web server (like Apache or Nginx) installed on your machine.
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
@@ -66,23 +81,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-##how to install
-1. Clone the Repository: https://github.com/ahmedsahni/Travelo-Website-Laravel-11.git
-2. Navigate to the Project Directory: cd your-repo-name
-3. Install Dependencies: composer install
-4. Copy the Environment File: cp .env.example .env
-5. Generate Application Key: php artisan key:generate
-6. Set Up the Database:
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=your_database_name
-        DB_USERNAME=your_database_user
-        DB_PASSWORD=your_database_password
-7. Run Migrations: php artisan migrate
-8. Seed the Database (Optional): php artisan db:seed
-9. Start the Development Server: php artisan serve
-
-Additional Note:
-Ensure that you have PHP, Composer, and a web server (like Apache or Nginx) installed on your machine.
 
