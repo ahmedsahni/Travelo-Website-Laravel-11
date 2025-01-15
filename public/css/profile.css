@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 0vh;
+}
+header{
+display: flex;
+background-color: #FF6B35;
+height: 10vh;
+}
+.logo{
+    width: 40vw;
+    height: 10vh;
+}
+.logo img{
+    height: 10vh;
+    padding-top: 1vh;
+    padding-left: 5vw;
+}
+.head{
+    width: 60vw;
+    height: 10px;
+}
+.head li{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1.5vh;
+    font-size: larger;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.head li a{
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(218 242 247);
+}
+header{
+    background-color: rgb(218 242 247);
+}
+body{
+    background-color: #FF6B35;
+}
+header{
+    background-color: #FF6B35;
+}
+.head li{
+    color: white;
+}
+.data{
+        padding: 0px 20px;
+        flex-direction: column;
+        height: 95vh;
+        width: 70vw;
+        margin: 20vh 15vw;
+        background-color: white;
+        border-radius: 20px;
+        align-items: center;
+}
+#pp-img{
+    position: absolute;
+    top: 500px;
+    height: 300px;
+    width: 250px;
+    right: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.data-title{
+    height: 10vh;
+    width: 70vw;
+    padding-top: .5vh;
+}
+.data-title h1{
+    padding-left: 0.5vw;
+}
+.data-form{
+    margin-top: 8vh;
+    height: 75vh;
+    width: 70vw;
+    display: flex;
+}
+.text-form{
+    height: 75vh;
+    width: 32vw;
+    padding-left: 3vw;
+}
+.text-form img, input[type=text],input[type=email],input[type=tel]{
+    width: 30vw;
+    height: 5.5vh;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid gray;
+    background-color: rgb(249, 249, 249);
+    text-indent: 1.5vw;
+
+}
+.p-pic{
+    width: 32vw;
+    height: 75vh;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.p-pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.p-pic button{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#18649d;
+    color: white;
+}

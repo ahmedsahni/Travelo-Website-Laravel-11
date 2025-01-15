@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 0vh;
+}
+header{
+display: flex;
+background-color: #FFD166;
+height: 10vh;
+}
+.logo{
+    width: 40vw;
+    height: 10vh;
+}
+.logo img{
+    height: 10vh;
+    padding-top: 1vh;
+    padding-left: 5vw;
+}
+.head{
+    width: 60vw;
+    height: 10px;
+}
+.head li{
+    display: inline-block;
+    color:#FFD166;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1.5vh;
+    font-size: larger;
+    margin-top: 0px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.head li a{
+    text-decoration: none;
+
+}
+body{
+    background-color: #FF6B35;
+}
+header{
+    background-color: #FF6B35;
+}
+header h1{
+   margin-top: 100px;
+}
+.head li{
+    color:#FFD166;;
+}
+#booking-heading{
+    margin-top: 100px;
+}
+.book{
+    flex-direction: column;
+    height: 800px;
+    width: 65vw;
+    margin: 0px 17vw;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 20px;
+    align-items: center;
+}
+.upper-tick{
+    width: 65vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tick{
+    margin-top: 3vh;
+    height: 15vh;
+    width: 10vw;
+    /* border-radius: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-tick{
+    background-color:#FF6B35;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-tick img{
+    height: 25px;
+    width: 25px;
+}
+#third{
+    background-color: black;
+    color: white;
+}
+.search{
+    height: 52vh;
+    width: 63vw;
+    /* border: 2px solid red; */
+    padding-left: 2vw;
+}
+content{
+    display: flex;
+}
+.city{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.abc{
+    width: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid silver;
+        margin-top: 10px;
+        border-radius: 5px;
+}
+.search{
+    width: 50%;
+}
+.search a{
+    text-decoration: none;
+}
+.search input[type=search]{
+    height: 6vh;
+    width: 58vw;
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 2vw;
+}
+
+.setdate{
+    width: 27vw;
+    height: 15vh;
+}
+.setdate input[type=date]{
+    width: 18vw;
+    height: 5vh;
+    font-size: larger;
+    padding: 0 1vw;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(243, 243, 243);
+    color: gray;
+
+}
+
+.buttons{
+    height: 15vh;
+    width: 65vw;
+}
+.buttons button{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: larger;
+    color: gray;
+}
+.map{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    right: 440px;
+}
+#map-img{
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+/* Message box styles */
+.message-box {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    display: none; /* Initially hidden */
+}
+.popup-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid red; */
+    background-color: #FF6B35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home{
+    margin: 0px 100px;
+}
+.home ul li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+.log button{
+    margin: 0px 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+}
+.a1{
+    margin: 0px 0px;
+    width: 100%;
+    height: 600px;
+    background-color: #FF6B35;
+    display: flex;
+    flex-direction: row;
+}
+.a1-a{
+    width: 50%;
+    padding: 80px 80px;
+    font-size: 1.5rem;
+}
+.a1-b{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1-b img{
+    height: 500px;
+    width: 600px;
+}
+.a2{
+    margin: 0px 0px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.a2-a{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a2-a img{
+    height: 550px;
+    width: 600px;
+}
+.a2-b{
+    width: 50%;
+    padding: 80px 80px;
+}
+.a2-b1{
+    height: 50%;
+    font-size: 1.2rem;
+}
+.a2-b1 h2{
+    color: orange;
+}
+
+.a2-b2{
+    height: 50%;
+}
+.a2-b2 img{
+    height: 90%;
+}
+.a3{
+    margin: 0px 0px;
+    width: 100%;
+    height: 800px;
+    background-color: #FF6B35;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.a3-a{
+    width: 100%;
+    display: flex;
+}
+.a3-a1{
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 20px 100px;
+}
+.a3-a2{
+    width: 50%;
+}
+.a3-a2 img{
+    height: 80px;
+    width: 80px;
+    float: right;
+    margin: 30px 20px;
+}
+.a3-b{
+    width: 90%;
+    margin: 0px 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.a3-b img{
+    height: 450px;
+    width: 400px;
+}
+.a3-b img:hover{
+    transform: scale(1.02);
+}
+.a4{
+    margin: 20px 0px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.a4-a{
+    width: 50%;
+}
+.a4-a1{
+    margin: 90px 100px;
+    font-size: 1.2rem;
+}
+.a4-a1 h2{
+    color:#FFD166;
+}
+.a4-a2{
+    margin: 0px 100px;
+}
+.a4-a2 img{
+    width: 300px;
+}
+.a4-b{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a4-b img{
+    height: 500px;
+    width: 500px;
+}
+.a5{
+    margin: 00px 0px;
+    width: 100%;
+    height: 400px;
+    background-color: #FF6B35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    font-size: 1.2rem;
+    color: #FFD166;
+}
+.about{
+    width: 20%;
+}
+.auth:hover{
+    transform: scale(1.1);
+    color: red;
+}

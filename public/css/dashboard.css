@@ -1,0 +1,247 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 0vh;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+    height: 10vh;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 40vw;
+    height: 10vh;
+}
+
+.head {
+    width: 60vw;
+    height: 10px;
+}
+
+.head li {
+    display: inline-block;
+    color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1.5vh;
+    font-size: larger;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    transition: transform 0.3s;
+}
+
+.head li:hover {
+    color: rgb(7, 231, 7);
+    transform: scale(1.05);
+}
+
+.head li a {
+    text-decoration: none;
+}
+
+.propic {
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    top: 45px;
+    right: 65px;
+    position: absolute;
+    margin: -4.5svh;
+    margin-left: 1vw;
+    border-radius: 25px;
+    border: 2px solid rgb(236, 235, 235);
+}
+
+.dashboard {
+    padding-top: 40px;
+    width: 250px;
+    height: 100vh;
+    display: block;
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+}
+
+#s-box {
+    width: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+#s-button {
+    border: 1px solid gray;
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#s-button:hover {
+    transform: scale(1.02)
+}
+.buttons {
+    height: 60px;
+    margin: 10px 15px;
+    width: 200px;
+    padding-left: 20px;
+    justify-content: center;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.buttons h3 a{
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    color: rgb(61, 61, 61);
+    padding-left: 15px;
+    text-decoration: none;;
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.buttons:hover {
+    border: 1px solid black;
+    transform: scale(1.02);
+    color: silver;
+    background: linear-gradient(135deg, #FF6B35,#FFD166);
+}
+
+.buttons img {
+    padding-top: 7px;
+    height: 40px;
+    width: 40px;
+    /* filter: invert(100%); */
+    fill: rgba(255, 255, 255, 1);
+}
+
+#none:hover {
+    border: 1px solid white;
+    background: none;
+}
+
+.manage_users {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    right: 0px;
+    padding: 0px 10px;
+}
+
+#s-box {
+    width: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px
+}
+
+#s-button {
+    border: 1px solid gray;
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+    height: 33px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    width: 200px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.action-button:hover {
+    opacity: 0.8;
+}
+.s-box{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.inner_offer_box{
+    height: auto;
+    width: 270px;
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 10px;
+    /* transition: transform 0.3s; */
+}
+.inner_offer_box:hover{
+    transform: scale(1.05);
+}
+.inner_offer_box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    align-self: center;
+}
+.inner_offer_box p{
+    margin-left: 0px;
+    padding: 20px;
+    color: #FFD166;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+}
+.inner_offer_box h3{
+    align-self: center;
+}
+.inner_offer_box a{
+    align-self: center;
+}
+.inner_offer_box a:hover{
+    align-self: center;
+
+}
+.inner_offer_box button{
+    background: linear-gradient(135deg, #FFD166, #FF6B35);
+    height: 35px;
+    align-self: center;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid  rgb(61, 61, 61);
+}
+.inner_offer_box button:hover{
+    transform: scale(1.02);
+}
+
+.price{
+    display: flex;
+}

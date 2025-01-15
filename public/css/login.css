@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 0vh;
+}
+header{
+display: flex;
+background-color: #18649d;
+height: 10vh;
+}
+.logo{
+    width: 40vw;
+    height: 10vh;
+}
+.logo img{
+    height: 10vh;
+    padding-top: 1vh;
+    padding-left: 5vw;
+}
+.head{
+    width: 60vw;
+    height: 10px;
+}
+.head li{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1.5vh;
+    font-size: larger;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.head li a{
+    text-decoration: none;
+
+}
+.head li:hover{
+    transform: scale(1.03);
+    color: red;
+}
+body{
+    background-color: #FFD166;
+}
+header{
+    background-color:  #FFD166 ;
+}
+.head li{
+    color: black;
+}
+.create{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    width: 75vw;
+    margin: 20vh 15vw;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portion1{
+    width: 35vw;
+    height: 80vh;
+    margin: 0px;
+    /* padding: 3vh 2vw; */
+    padding-left: 2vw;
+    padding-top: 5vh;
+
+}
+.portion1 input[type=text]{
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+.portion1 input[type=password]{
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+.portion1 input[type=email]{
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+.portion1 input[type=submit]{
+    width: 30vw;
+    height: 6vh;
+    background-color:  #FF6B35;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+.portion1 input[type=submit]:hover{
+    transform: scale(1.01);
+    color: #FFD166;
+}
+.portion1 img{
+    width: 30vw;
+    height: 6.5vh;
+    border-radius: 5px;
+}
+.portion2{
+    width: 33vw;
+    height: 70vh;
+    background-color:#FF6B35;
+    border-radius: 20px;
+}
+.portion2 img{
+    width: 25vw;
+    height: 70vh;
+    padding-top: 0vh;
+    padding-left: 4vw;
+}
